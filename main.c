@@ -1,4 +1,4 @@
-//主程序
+ //主程序
 
 #include <p18cxxx.h>
 #include <delays.h>
