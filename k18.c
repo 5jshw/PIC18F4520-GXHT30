@@ -14,30 +14,22 @@ void k18_init(void)
 	//K18引脚方向、输出初值定义
 	
 	SDA = 0;
-	TRIS_SDA = OUT;
+	T_SDA = OUT;
 
 	SCL = 0;
-	TRIS_SCL = OUT;
+	T_SCL = OUT;
 	
 	L1 = 0;
-	TRIS_L1 = OUT;
+	T_L1 = OUT;
 	
 	L2 = 0;
-	TRIS_L2 = OUT;
+	T_L2 = OUT;
 	
 	L3 = 0;
-	TRIS_L3 = OUT;
+	T_L3 = OUT;
 	
 	L4 = 0;
-	TRIS_L4 = OUT;
-	
-	L5 = 0;
-	TRIS_L5 = OUT;
-	
-	L6 = 0;
-	TRIS_L6 = OUT;
-	
-	L7 = 0;
-	TRIS_L7 = OUT;
+	T_L4 = OUT;
+
 	
 }

@@ -1,14 +1,14 @@
 #ifndef __gxht30_h
 #define __gxht30_h
 
-#define SCL_O	TRIS_SCL = 0; //时钟端口输出
-#define SCL_I	TRIS_SCL = 1; //时钟端口输入
+#define SCL_O	T_SCL = 0; //时钟端口输出
+#define SCL_I	T_SCL = 1; //时钟端口输入
 
 #define SCL_H	SCL = 1; //上拉时钟
 #define SCL_L	SCL = 0; //下拉时钟
 
-#define SDA_O	TRIS_SDA = 0; //数据端口输出
-#define SDA_I	TRIS_SDA = 1; //数据端口输入
+#define SDA_O	T_SDA = 0; //数据端口输出
+#define SDA_I	T_SDA = 1; //数据端口输入
 
 #define SDA_H	SDA = 1; //上拉数据
 #define SDA_L	SDA = 0; //下拉数据
