@@ -13,14 +13,11 @@
 
 //k Òý½Å¶¨Òå
 
-#define COL1			PORTAbits.RA0
-#define TRIS_COL1		DDRAbits.RA0
+#define SDA				PORTDbits.RD0
+#define TRIS_SDA		DDRDbits.RD0
 
-#define SDA				PORTAbits.RA1
-#define TRIS_SDA		DDRAbits.RA1
-
-#define SCL				PORTAbits.RA2
-#define TRIS_SCL		DDRAbits.RA2
+#define SCL				PORTDbits.RD1
+#define TRIS_SCL		DDRDbits.RD1
 
 #define L1				PORTBbits.RB0
 #define TRIS_L1			DDRBbits.RB0

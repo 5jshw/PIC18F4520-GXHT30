@@ -6,15 +6,12 @@
 //初始化
 void k18_init(void)
 {
-	ADCON1 = 0X0F; //设置所有双拥口位普通数字口
+	ADCON1 = 0X0F; //设置所有双用口位普通数字口
 	
 	CMCON = 0X07; //关闭所有比较器
 	INTCON2bits.RBPU = 0; //开启B口弱上拉
 	
 	//K18引脚方向、输出初值定义
-	
-	COL1 = 0;
-	TRIS_COL1 = OUT;
 	
 	SDA = 0;
 	TRIS_SDA = OUT;

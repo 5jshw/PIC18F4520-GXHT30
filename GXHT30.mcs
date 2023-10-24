@@ -54,32 +54,6 @@ ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
 DebugOptions=-D__DEBUG
 [File004]
-Location=GXHT30.cof
-Folder=Output
-DeviceName=PIC18F4520
-LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
-LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
-LanguageToolLocation=C:\MCC18\bin\mplink.exe
-PPAD=$(BINDIR)|C:\MCC18||$(TMPDIR)|C:\MCC18||$(AINDIR)||$(INCDIR)|C:\MCC18||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
-SOLK=<src>|delay.c|GXHT30.c|k18.c|main.c||<obj>||<lib>||<lkr>|C:\MCC18\lkr\18f4520.lkr||
-SuiteArgsString=
-ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
-TraceCmdString=
-DebugOptions=/z__MPLAB_DEBUG=1
-[File005]
-Location=GXHT30.hex
-Folder=Output
-DeviceName=PIC18F4520
-LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
-LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
-LanguageToolLocation=C:\MCC18\bin\mplink.exe
-PPAD=$(BINDIR)|C:\MCC18||$(TMPDIR)|C:\MCC18||$(AINDIR)||$(INCDIR)|C:\MCC18||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
-SOLK=<src>|delay.c|GXHT30.c|k18.c|main.c||<obj>||<lib>||<lkr>|C:\MCC18\lkr\18f4520.lkr||
-SuiteArgsString=
-ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
-TraceCmdString=
-DebugOptions=/z__MPLAB_DEBUG=1
-[File006]
 Location=C:\MCC18\GXHT30.cof
 Folder=Output
 DeviceName=PIC18F4520
@@ -92,7 +66,7 @@ SuiteArgsString=
 ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
 TraceCmdString=
 DebugOptions=/z__MPLAB_DEBUG=1
-[File007]
+[File005]
 Location=C:\MCC18\GXHT30.hex
 Folder=Output
 DeviceName=PIC18F4520

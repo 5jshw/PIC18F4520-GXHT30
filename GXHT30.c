@@ -16,7 +16,6 @@ void IIC_init(void)
 	SCL_L;
 	SDA_L;
 	
-	COL1 = 0;
 }
 
 //I2C起始信号
@@ -235,8 +234,6 @@ void GXHT30_read_result(unsigned int addr)
   	hum = 0; //变量重置
 	tem = 0; //变量重置
 
-	COL1 = 1;
-	
 	Delay10Ms(1);
 }
 
