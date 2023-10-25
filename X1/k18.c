@@ -6,16 +6,17 @@
 //初始化
 void GXHT30_init(void)
 {
-	ADCON1 = 0X0F; //设置所有双用口位普通数字口
+	//ADCON1 = 0X0F; //设置所有双用口位普通数字口
 	
-	CMCON = 0X07; //关闭所有比较器
-	INTCON2bits.RBPU = 0; //开启B口弱上拉
+	//CMCON = 0X07; //关闭所有比较器
+	//INTCON2bits.RBPU = 1; //开启B口弱上拉
 
 	SDA = 0;
 	T_SDA = OUT;
 	SCL = 0;
 	T_SCL = OUT;
 
+	T_L1 = 0;
 	T_A = 0;
 	T_B = 0;
 	T_C = 0;
@@ -28,6 +29,7 @@ void GXHT30_init(void)
 	T_C3 = 0;
 	T_C4 = 0;
 	
+	L1 = 0;
 	A = 0;
 	B = 0;
 	C = 0;

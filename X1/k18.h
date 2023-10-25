@@ -63,6 +63,5 @@
 
 //系统初始化函数
 void GXHT30_init(void); //HL-K18 主板初始化
-void XS1(void);
 
 #endif
