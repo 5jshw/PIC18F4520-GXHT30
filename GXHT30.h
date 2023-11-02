@@ -13,7 +13,6 @@
 #define SDA_H	SDA = 1; //上拉数据
 #define SDA_L	SDA = 0; //下拉数据
 
-void IIC_init(void);  //初始化
 void IIC_Start(void); //起始信号
 void IIC_Stop(void); //结束信号
 void IIC_Ack(void); //应答信号

@@ -13,23 +13,20 @@
 
 //k 引脚定义
 
+#define AD		PORTAbits.RA0
+#define T_AD	DDRAbits.RA0
+
+#define T1		PORTEbits.RE0
+#define T_T1	DDREbits.RE0
+
+#define L1		PORTCbits.RC2
+#define T_L1	DDRCbits.RC2
+
 #define SDA		PORTDbits.RD0
 #define T_SDA	DDRDbits.RD0
 
 #define SCL		PORTDbits.RD1
 #define T_SCL	DDRDbits.RD1
-
-#define L1		PORTBbits.RB0
-#define T_L1	DDRBbits.RB0
-
-#define L2		PORTBbits.RB1
-#define T_L2	DDRBbits.RB1
-
-#define L3		PORTBbits.RB2
-#define T_L3	DDRBbits.RB2
-
-#define L4		PORTBbits.RB3
-#define T_L4	DDRBbits.RB3
 
 #define A		PORTBbits.RB0
 #define T_A		DDRBbits.RB0
@@ -52,22 +49,19 @@
 #define G		PORTBbits.RB6
 #define T_G		DDRBbits.RB6
 
-#define C1		PORTEbits.RE1
-#define T_C1	DDREbits.RE1
+#define C1		PORTDbits.RD2
+#define T_C1	DDRDbits.RD2
 
-#define C2		PORTEbits.RE2
-#define T_C2	DDREbits.RE2
+#define C2		PORTDbits.RD3
+#define T_C2	DDRDbits.RD3
 
-#define C3		PORTCbits.RC0
-#define T_C3	DDRCbits.RC0
+#define C3		PORTCbits.RC4
+#define T_C3	DDRCbits.RC4
 
-#define C4		PORTCbits.RC1
-#define T_C4	DDRCbits.RC1
+#define C4		PORTCbits.RC5
+#define T_C4	DDRCbits.RC5
 
 //系统初始化函数
-void k18_init(void); //HL-K18 主板初始化
-void K1(void);
-void G1(void);
-void SMG_O(void);
-void SMG_L(void);
+void GXHT30_init(void); //HL-K18 主板初始化
+
 #endif
