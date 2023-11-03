@@ -1,18 +1,13 @@
-//主板K18
-
+//主板头文件
 #ifndef __k18_h
 #define __k18_h
 
-//变量类型标识的宏定义
-#define Uchar unsigned char
-#define Uint unsigned int
 #define OUT 0
 #define IN 1
 
 #define Fosc 8000000 //定义晶振频率（单位Hz）
 
-//k 引脚定义
-
+//引脚定义
 #define AD		PORTAbits.RA0
 #define T_AD	DDRAbits.RA0
 
@@ -61,7 +56,6 @@
 #define C4		PORTCbits.RC5
 #define T_C4	DDRCbits.RC5
 
-//系统初始化函数
-void GXHT30_init(void); //HL-K18 主板初始化
+void GXHT30_init(void);		//定义系统初始化函数
 
 #endif

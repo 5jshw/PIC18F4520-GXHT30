@@ -1,5 +1,4 @@
 //—” ±
-
 #include <p18cxxx.h>
 #include <delays.h>
 #include "k18.h"
