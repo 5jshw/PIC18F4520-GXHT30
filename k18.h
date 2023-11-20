@@ -11,6 +11,9 @@
 #define AD		PORTAbits.RA0
 #define T_AD	DDRAbits.RA0
 
+#define AD2		PORTAbits.RA1
+#define T_AD2	DDRAbits.RA1
+
 #define T1		PORTEbits.RE0
 #define T_T1	DDREbits.RE0
 
@@ -55,6 +58,8 @@
 
 #define C4		PORTCbits.RC5
 #define T_C4	DDRCbits.RC5
+
+#define addr	0x88		//GXHT30在I2C总线上的地址
 
 void GXHT30_init(void);		//定义系统初始化函数
 

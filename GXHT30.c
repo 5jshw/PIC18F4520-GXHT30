@@ -144,7 +144,7 @@ unsigned char IIC_ReadByte(unsigned int ack)	//ack 判断字节数据是否接收完成
 }
 
 //读取温度
-void GXHT30_read_result(unsigned int addr)
+void GXHT30_read_result(unsigned int addr1)
 {
 	unsigned int tem,hum;				//合并数据用，变量
 	unsigned int buff[6];				//接收数据用，数组
@@ -178,7 +178,7 @@ void GXHT30_read_result(unsigned int addr)
 }
 
 //写入控制命令
-void GXHT30_write_cmd(unsigned int addr, unsigned int MSB, unsigned int LSB)
+void GXHT30_write_cmd(unsigned int addr1, unsigned int MSB, unsigned int LSB)
 {
 	IIC_Start();				//起始信号
 	IIC_SendByte(addr);			//地址最后一位表示读写操作，0为写操作

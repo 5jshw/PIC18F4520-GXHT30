@@ -20,8 +20,8 @@ void IIC_NAck(void); //不应答信号
 unsigned char IIC_WAck(void); //等待应答
 void IIC_SendByte(unsigned int txd); //发送字节
 unsigned char IIC_ReadByte(unsigned int ack); //接收字节
-void GXHT30_read_result(unsigned int addr); //读取温度
-void GXHT30_write_cmd(unsigned int addr, unsigned int MSB, unsigned int LSB);
+void GXHT30_read_result(unsigned int addr1); //读取温度
+void GXHT30_write_cmd(unsigned int addr1, unsigned int MSB, unsigned int LSB);
 
 
 #endif
